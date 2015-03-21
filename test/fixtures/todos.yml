@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: todos
+#
+#  id           :integer          not null, primary key
+#  todo_list_id :integer          not null
+#  description  :string           not null
+#  completed    :boolean          default("f"), not null
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  todo_list_id: 1
+  description: MyString
+  completed: false
+
+two:
+  todo_list_id: 1
+  description: MyString
+  completed: false
